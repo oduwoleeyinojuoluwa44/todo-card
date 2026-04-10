@@ -15,3 +15,9 @@ body {
     align-items: flex-start;
     min-height: 100vh;
 }
+
+@media (max-width: 480px) {
+    body {
+        padding: 0;
+    }
+}
